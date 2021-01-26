@@ -94,7 +94,7 @@ public class Filosofo implements Runnable {
         filosofo.setText("Pensando");
         filosofo.setBackground(Color.DARK_GRAY);
 
-        process = "Filosofo" + (id + 1) + ": " + "Dejo de usar los tenedores\n";
+        process = "Filosofo " + (id + 1) + ": " + "Dejo de usar los tenedores\n";
         area.append(process);
     }
 
